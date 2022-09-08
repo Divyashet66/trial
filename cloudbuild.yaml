@@ -10,7 +10,7 @@ steps:
   name: 'gcr.io/tech-rnd-project/binauthz-attestation:latest'
   args:
     - '--artifact-url'
-    - 'gcr.io/tech-rnd-project/helloworld:latest'
+    - 'us-central1-docker.pkg.dev/tech-rnd-project/cloud-run-source-deploy/mydashboard:latest'
     - '--attestor'
     - 'projects/tech-rnd-project/attestors/my-binauthz-attestor'
     - '--keyversion'
