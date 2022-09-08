@@ -9,7 +9,6 @@ steps:
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - run
-  - --filename=gcr.io/tech-rnd-project/hello-world:latest
   - --image=gcr.io/tech-rnd-project/hello-world:latest
   - --location=us-central1-a
   - --cluster=cluster-1
