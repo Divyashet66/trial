@@ -9,7 +9,7 @@ steps:
 - id: 'create-attestation'
   name: 'gcr.io/tech-rnd-project/binauthz-attestation:latest'
   args:
-    - '--container-image'
+    - '--artifact-url'
     - 'gcr.io/tech-rnd-project/hello-world:latest'
     - '--attestor'
     - 'projects/tech-rnd-project/attestors/my-binauthz-attestor'
